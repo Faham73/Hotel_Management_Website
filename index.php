@@ -440,7 +440,90 @@
     </div>
   </div>
 
-  
+  <!-- Testimonials -->
+  <h2 class="mt-5 pt-4 mb-4 text-center fm-bold h-font">TESTIMONIALS</h2>
+
+  <div class="container mt-5">
+    <!-- Swiper -->
+    <div class="swiper swiper-testimonials">
+      <div class="swiper-wrapper mb-5">
+        <div class="swiper-slide bg-white p-4">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/features/star-fill.svg" width="30px" />
+            <h6 class="m-0 ms-2">Random user 1</h6>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo inventore illo cupiditate repudiandae amet blanditiis
+            ad dolorum corrupti esse rem.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-half text-warning"></i>
+          </div>
+        </div>
+        <div class="swiper-slide bg-white p-4">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/features/star-fill.svg" width="30px" />
+            <h6 class="m-0 ms-2">Random user 2</h6>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo inventore illo cupiditate repudiandae amet blanditiis
+            ad dolorum corrupti esse rem.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-half text-warning"></i>
+          </div>
+        </div>
+        <div class="swiper-slide bg-white p-4">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/features/star-fill.svg" width="30px" />
+            <h6 class="m-0 ms-2">Random user 3</h6>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo inventore illo cupiditate repudiandae amet blanditiis
+            ad dolorum corrupti esse rem.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-half text-warning"></i>
+          </div>
+        </div>
+        <div class="swiper-slide bg-white p-4">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/features/star-fill.svg" width="30px" />
+            <h6 class="m-0 ms-2">Random user 4</h6>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo inventore illo cupiditate repudiandae amet blanditiis
+            ad dolorum corrupti esse rem.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-half text-warning"></i>
+          </div>
+        </div>
+        
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
 
 
   <br><br><br>
@@ -459,6 +542,39 @@
       autoplay: {
         delay: 3500,
         disableOnInteraction: false,
+      }
+    });
+
+    var swiper = new Swiper(".swiper-testimonials", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      slidesPerView: "3",
+      loop: true,
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        }
       }
     });
   </script>
