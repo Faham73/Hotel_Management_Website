@@ -13,6 +13,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/common.css">
   <style>
     /* Availibility-form over carousel */
     .availibility-form {
@@ -519,11 +520,58 @@
             <i class="bi bi-star-half text-warning"></i>
           </div>
         </div>
-        
+
       </div>
       <div class="swiper-pagination"></div>
     </div>
   </div>
+
+  <!-- Reach us -->
+  <h2 class="mt-5 pt-4 mb-4 text-center fm-bold h-font">REACH US</h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+        <iframe class="w-100 rounded" height="320px"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0165081072278!2d90.35983747538049!3d23.782426478648475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0b93f4aabaf%3A0x102331488d97ab5c!2sKallyanpur%20Rd%20Number%2011%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1737132871405!5m2!1sen!2sbd"
+          loading="lazy"></iframe>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="bg-white p-4 rounded mb-4">
+          <h5>Call us</h5>
+          <a href="tel: +8801518985997" class="d-inline-block mb-2 text-decoration-none text-dark">
+            <i class="bi bi-telephone-fill"></i> +8801518985997
+          </a>
+          <br>
+          <a href="tel: +8801518985997" class="d-inline-block text-decoration-none text-dark">
+            <i class="bi bi-telephone-fill"></i> +8801723024794
+          </a>
+        </div>
+
+        <div class="bg-white p-4 rounded mb-4">
+          <h5>Follow us</h5>
+          <a href="#" class="d-inline-block mb-3">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-twitter me-1"></i> Twitter
+            </span>
+          </a>
+          <br>
+          <a href="#" class="d-inline-block mb-3">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-facebook me-1"></i> Facebook
+            </span>
+          </a>
+          <br>
+          <a href="#" class="d-inline-block">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-instragram me-1"></i> Instragram
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
   <br><br><br>
