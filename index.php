@@ -9,10 +9,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <style>
     * {
       font-family: "Poppins", serif;
     }
+
     .h-font {
       font-family: "Merienda", serif;
     }
@@ -23,15 +25,14 @@
       -webkit-appearance: none;
       margin: 0;
     }
+
     input[type=number] {
       -moz-appearance: textfield;
     }
-
-
   </style>
 </head>
 
-<body>
+<body class="bg-light">
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
     <div class="container-fluid">
@@ -166,11 +167,49 @@
       </form>
     </div>
   </div>
+
+
+  <!-- Carousel(Swiper js) -->
+  <div class="containerr-fluid px-lg-4 mt-4">
+    <div class="swiper swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/carousel/1.jpg" class="w-100 d-block">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/3.jpg" class="w-100 d-block">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/5.jpg" class="w-100 d-block">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/1.jpg" class="w-100 d-block">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/3.jpg" class="w-100 d-block">
+        </div>
+      </div>
+    </div>
   </div>
 
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      spaceBetween: 30,
+      effect: "fade",
+      loop: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction:false,
+      }
+    });
+  </script>
+
 </body>
 
 </html>
