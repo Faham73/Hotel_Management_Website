@@ -14,34 +14,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <style>
-    * {
-      font-family: "Poppins", serif;
-    }
-
-    .h-font {
-      font-family: "Merienda", serif;
-    }
-
-    /* Hide input type number arrows */
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
-    }
-
-    input[type=number] {
-      -moz-appearance: textfield;
-    }
-
-    /* Custom Background Color */
-    .custom-bg {
-      background-color: #2ec1ac;
-    }
-
-    .custom-bg:hover {
-      background-color: #279e8c;
-    }
-
     /* Availibility-form over carousel */
     .availibility-form {
       margin-top: -50px;
@@ -418,7 +390,7 @@
                 <i class="bi bi-star-fill text-warning"></i>
                 <i class="bi bi-star-fill text-warning"></i>
                 <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
               </span>
             </div>
             <div class="d-flex justify-content-evenly mb-2">
@@ -434,6 +406,42 @@
       </div>
     </div>
   </div>
+
+  <!-- Our Facilities -->
+  <h2 class="mt-5 pt-4 mb-4 text-center fm-bold h-font">OUR FACILIITES</h2>
+
+  <div class="container">
+    <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/features/wifi.svg" width="80px">
+        <h5 class="mt-3">Wifi</h5>
+      </div>
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/features/wifi.svg" width="80px">
+        <h5 class="mt-3">Wifi</h5>
+      </div>
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/features/wifi.svg" width="80px">
+        <h5 class="mt-3">Wifi</h5>
+      </div>
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/features/wifi.svg" width="80px">
+        <h5 class="mt-3">Wifi</h5>
+      </div>
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/features/wifi.svg" width="80px">
+        <h5 class="mt-3">Wifi</h5>
+      </div>
+
+
+      <div class="col-lg-12 text-center mt-5">
+        <a href="#" class="btn btn-outline-dark rounded-0 fw-bold shadow-none">More Facilities >>> </a>
+      </div>
+    </div>
+  </div>
+
+  
+
 
   <br><br><br>
 
